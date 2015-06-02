@@ -1,8 +1,8 @@
 Execução do programa em Windows (necessário Netbeans):
 
-- Descompacte o .zip
+- Descompacte o arquivo .zip
 
-- No Netbeans, abra o projeto que está na pasta onde o .zip foi descompactado
+- No Netbeans, abra o projeto que está na pasta onde o arquivo .zip foi descompactado
 
 - Aperte F6 para para executar o projeto
 
