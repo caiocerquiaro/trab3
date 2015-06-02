@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="260.0" prefWidth="642.000199999995" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="UI.TelaPrincipalController">
+  <children>
+    <Button fx:id="btncadusuario" layoutX="39.0" layoutY="29.0" mnemonicParsing="false" onAction="#AcaoBtnCadastrarUsuario" prefHeight="92.0" prefWidth="170.0" text="Cadastrar usuarios" />
+    <Button layoutX="39.0" layoutY="137.0" mnemonicParsing="false" onAction="#AcaoBtnRegistraLivro" prefHeight="92.0" prefWidth="170.0" text="Cadastrar livros" />
+    <Button fx:id="btnregistraemprestimo" layoutX="246.0" layoutY="29.0" mnemonicParsing="false" onAction="#RegistraEmprestimo" prefHeight="92.0" prefWidth="170.0" text="Registrar empréstimo" />
+    <Button layoutX="439.0" layoutY="29.0" mnemonicParsing="false" prefHeight="92.0" prefWidth="170.0" text="Deletar empréstimo" />
+    <Button fx:id="btnlistagem" layoutX="246.0" layoutY="137.0" mnemonicParsing="false" onAction="#listadados" prefHeight="92.0" prefWidth="170.0" text="Listagem de dados" />
+  </children>
+</AnchorPane>

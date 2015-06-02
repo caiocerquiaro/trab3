@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="209.0" prefWidth="526.0000999999975" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="UI.Cadastro.CadastroUsuarioController">
+  <children>
+    <Label layoutX="34.0" layoutY="60.0" text="RG" />
+    <TextField fx:id="txtrg" layoutX="34.0" layoutY="80.0" prefWidth="200.0" />
+    <Label alignment="CENTER" contentDisplay="LEFT" layoutX="175.0" layoutY="21.0" text="Cadastro de usuário">
+      <font>
+        <Font size="20.0" />
+      </font>
+    </Label>
+    <Label layoutX="289.0" layoutY="60.0" text="NOME" />
+    <TextField fx:id="txtnome" layoutX="289.0" layoutY="80.0" prefWidth="200.0" />
+    <Label layoutX="144.0" layoutY="120.0" text="Tipo de usuario" />
+    <Button fx:id="btnvoltar" layoutX="289.0" layoutY="125.0" mnemonicParsing="false" onAction="#AcaoBtnVoltar" prefHeight="38.0" prefWidth="73.0" text="Voltar" />
+    <Button fx:id="btncad" layoutX="389.0" layoutY="125.0" mnemonicParsing="false" onAction="#AcaoCadastrar" prefHeight="38.0" prefWidth="73.0" text="Cadastrar" />
+    <TextField id="txtrg" fx:id="txttipo" layoutX="144.0" layoutY="148.0" prefWidth="58.0" />
+    <Label layoutX="34.0" layoutY="124.0" prefHeight="48.0" prefWidth="93.0" text="1 - Aluno&#10;2 - Professor&#10;3 - Comunidade" />
+  </children>
+</AnchorPane>

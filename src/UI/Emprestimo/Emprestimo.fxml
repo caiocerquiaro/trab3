@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="382.0" prefWidth="338.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="UI.Emprestimo.EmprestimoController">
+  <children>
+    <Label layoutX="87.0" layoutY="15.0" text="Emprestimo de livro">
+      <font>
+        <Font size="18.0" />
+      </font>
+    </Label>
+    <TextField fx:id="txtidlivro" layoutX="42.0" layoutY="93.0" prefWidth="200.0" />
+    <Label layoutX="43.0" layoutY="69.0" text="ID do livro emprestado">
+      <font>
+        <Font size="12.0" fx:id="x1" />
+      </font>
+    </Label>
+    <TextField fx:id="txtrg" layoutX="43.0" layoutY="160.0" prefWidth="200.0" />
+    <Label font="$x1" layoutX="44.0" layoutY="136.0" text="RG do usuario" />
+    <Button fx:id="btnvoltar" layoutX="44.0" layoutY="248.0" mnemonicParsing="false" onAction="#AcaoBtnVoltar" prefHeight="55.0" prefWidth="105.0" text="Voltar" />
+    <Button fx:id="btnemprestar" layoutX="169.0" layoutY="248.0" mnemonicParsing="false" onAction="#EmprestarLivro" prefHeight="55.0" prefWidth="105.0" text="Emprestar" />
+    <TextField id="txtrg" fx:id="txtdata" layoutX="41.0" layoutY="217.0" prefWidth="200.0" />
+    <Label font="$x1" layoutX="42.0" layoutY="193.0" text="Data de registrodo emprestimo (dd/mm/yyyy)" />
+  </children>
+</AnchorPane>

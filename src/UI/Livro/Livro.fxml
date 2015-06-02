@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="372.0" prefWidth="335.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="UI.Livro.LivroController">
+  <children>
+    <Label layoutX="95.0" layoutY="42.0" text="Cadastro do livro">
+      <font>
+        <Font size="18.0" />
+      </font>
+    </Label>
+    <TextField fx:id="txtidlivro" layoutX="42.0" layoutY="114.0" prefWidth="200.0" />
+    <Label layoutX="42.0" layoutY="92.0" text="ID do livro">
+      <font>
+        <Font size="12.0" fx:id="x1" />
+      </font>
+    </Label>
+    <TextField fx:id="txtnome" layoutX="43.0" layoutY="170.0" prefWidth="200.0" />
+    <Label font="$x1" layoutX="44.0" layoutY="146.0" text="Nome" />
+    <Button fx:id="btnvoltar" layoutX="44.0" layoutY="277.0" mnemonicParsing="false" onAction="#AcaoBtnVoltar" prefHeight="55.0" prefWidth="105.0" text="Voltar" />
+    <Button fx:id="btnemprestar" layoutX="178.0" layoutY="277.0" mnemonicParsing="false" onAction="#CadastrarLivro" prefHeight="55.0" prefWidth="105.0" text="Cadastrar" />
+    <TextField id="txtrg" fx:id="txttipo" layoutX="41.0" layoutY="227.0" prefWidth="200.0" />
+    <Label font="$x1" layoutX="41.0" layoutY="203.0" text="Tipo do livro (texto,geral)" />
+  </children>
+  <effect>
+    <Lighting diffuseConstant="2.0">
+      <bumpInput>
+        <Shadow />
+      </bumpInput>
+      <light>
+        <javafx.scene.effect.Light.Distant />
+      </light>
+    </Lighting>
+  </effect>
+</AnchorPane>
